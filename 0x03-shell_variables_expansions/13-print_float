@@ -1,0 +1,2 @@
+#!/bin/bash
+xargs -n1 printf "%.2f\n" <<< "$NUM"
