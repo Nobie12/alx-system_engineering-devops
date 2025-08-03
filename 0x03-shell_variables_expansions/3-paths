@@ -1,5 +1,4 @@
 #!/bin/bash
-# Count the number of directories in PATH
 echo "$PATH" | tr ':' '\n' | grep -c '.'
 
 
